@@ -2,6 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
+EXPENSE SPLITTER-
+The Expense Splitter is a MEAN based web Application will help in splitting of amount between a group of people.They can share the expenses and they can split the amount at any where and any cost of situation where it is mainly used for a bachelor friends to maintain the House Hold expenses.
+
+#FRONTEND TOOL-HTML5,CSS3,ANGULAR,BOOTSTRAP
+
+#BACKENDTOOL -MONGODB
+
+#SERVER TOOL -SOCKET IO ,NODE JS
+
+
+
+
+
+
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
