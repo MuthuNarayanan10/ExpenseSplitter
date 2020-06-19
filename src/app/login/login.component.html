@@ -1,0 +1,30 @@
+
+<app-navbar></app-navbar>
+
+<div class="container">
+  <mat-card>
+    <mat-card-title></mat-card-title>
+  <mat-card-content>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mt-5 mx-auto">
+        <form (submit)="login()">
+          <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" name="email" placeholder="Enter email" [(ngModel)]="credentials.email">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" name="password" placeholder="Password" [(ngModel)]="credentials.password">
+          </div>
+          <button type="submit" mat-flat-button color="primary">Sign in</button>
+
+          <a routerLink="/forget-pass">Forget Password????</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</mat-card-content>
+</mat-card>
+</div>
